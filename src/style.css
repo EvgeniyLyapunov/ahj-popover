@@ -1,0 +1,50 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: url('./img/bg.jpg') center / cover no-repeat;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.demo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.descr {
+  max-width: 70%;
+}
+
+.descr-text::first-letter {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  line-height: 16px;
+  color: #cf5060;
+}
+
+.demo-btn {
+  display: block;
+  width: 200px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.demo-btn_two {
+  margin: 150px 0 0 50px;
+}
+
